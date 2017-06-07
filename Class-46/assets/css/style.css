@@ -1,0 +1,159 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,700i,800');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding.dark-bg {
+    background: #343434 none repeat scroll 0 0;
+    height: 100%;
+}
+body, html {
+    height: 100%;
+}
+.single-trailor-item {
+    color: #fff;
+}
+.trailor-item-text h2 {
+    font-size: 38px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.trailor-item-text > p {
+    line-height: 27px;
+}
+.tailor-btn {
+    border: 2px solid #e24a47;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: 30px 0 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 160px;
+    transition: .3s;
+}
+.tailor-btn i {
+    float: right;
+    font-size: 10px;
+    transition: .3s;
+}
+.trailor-info {
+  position: relative;
+  text-align: right;
+  z-index: 1;
+}
+.colored-pricing-box {
+    background: #e24a47 none repeat scroll 0 0;
+    color: #fff;
+    height: 300px;
+    opacity: 1;
+    padding-top: 50px;
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 200px;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.colored-pricing-box p {
+    opacity: 0.5;
+}
+.colored-pricing-box > p.price-text {
+    color: #fff;
+    font-family: oswald;
+    font-size: 35px;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+.absoulte-shopping-cart {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    font-size: 20px;
+    height: 50px;
+    left: -25px;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 50px;
+}
+.trailor-info img {
+    padding-top: 150px;
+    position: relative;
+    z-index: 1;
+}
+div.owl-carousel .owl-item .trailor-info img {
+  display: inline-block;
+  width: auto;
+}
+.featured-tailor-carousel .owl-dots div:nth-child(1) span:before{
+    content: "01"
+}
+.featured-tailor-carousel .owl-dots div:nth-child(2) span:before{
+    content: "02"
+}
+.featured-tailor-carousel .owl-dots div:nth-child(3) span:before{
+    content: "03"
+}
+
+.featured-tailor-carousel .owl-dots div {
+    border-left: 2px solid #7b7b7b;
+    color: #fff;
+    padding: 40px 14px;
+}
+.featured-tailor-carousel .owl-dots {
+    margin-top: -190px;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+}
+.featured-tailor-carousel .owl-dot.active {
+    border-color: red;
+}
+.trailor-item-text {
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  justify-content: center;
+}
+
+.tailor-btn:hover {
+  color: #ddd;
+}
+.tailor-btn:hover i {
+  padding-left: 10px;
+  margin-right: -10px;
+}
