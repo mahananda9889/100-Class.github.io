@@ -1,0 +1,140 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,700i,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+body {
+    color: #888888;
+}
+.single-pricing-box {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 10px #f3f3f3;
+  float: left;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  width: 33.3333%;
+  z-index: 1;
+}
+.section-padding {
+    padding: 40px 0;
+}
+.pricing-heading {
+  background: #f9f9f9 none repeat scroll 0 0;
+  color: #898888;
+  font-size: 17px;
+  padding: 40px;
+}
+.pricing-heading h4 {
+    font-size: 25px;
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+.pricing-heading h2 {
+    color: #333;
+    font-size: 44px;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+.single-pricing-box p {
+    line-height: 26px;
+}
+.pricing-content ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.pricing-content ul li {
+    margin-bottom: 10px;
+}
+.pricing-content {
+    padding: 38px;
+}
+.active .pricing-heading {
+    background: #fc103c none repeat scroll 0 0;
+    color: #fff;
+}
+.active .pricing-heading h4, .active .pricing-heading h2 {
+    color: #fff;
+}
+.pricing-table {
+  overflow: hidden;
+  padding: 30px 20px;
+}
+.pricing-btn {
+    border: 2px solid #FC103C;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0 0;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: .3s;
+}
+.active .pricing-btn {
+  background: #fc103c none repeat scroll 0 0;
+  color: #fff;
+}
+.single-pricing-box.active {
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+  position: relative;
+  width: 34.3333%;
+  z-index: 2;
+}
+
+.single-pricing-box.active {
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    margin-top: 0;
+    position: relative;
+    width: 34.3333%;
+    z-index: 2;
+}
+.active .pricing-heading::before {
+    background: #fff none repeat scroll 0 0;
+    color: red;
+    content: "Featured";
+    padding: 4px 50px;
+    position: absolute;
+    right: -40px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+.active .pricing-heading {
+    overflow: hidden;
+}
+.single-pricing-box.active {
+  margin-top: 0;
+  overflow: hidden;
+}
+.active .pricing-content {
+    margin-bottom: 20px;
+}
