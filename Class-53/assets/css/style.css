@@ -1,0 +1,108 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,700i,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.header-area {
+    background: #9a42a7 none repeat scroll 0 0;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 30px;
+    text-transform: uppercase;
+}
+.mainmenu li ul {
+  position: absolute;
+  background: #9A42A7;
+  width: 150px;
+  z-index: 2;
+  top: 200px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+    transition: .3s;
+}
+.mainmenu li ul li {
+  display: block;
+}
+.mainmenu li ul li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.mainmenu li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 83px;
+	padding: 5px;
+}
+.mainmenu ul li:hover > a {
+    background: #ddd;
+    color: #333;
+}
+
+
+.mainmenu li ul.con {
+  top: 83px;
+  left: 200px;
+}
+.mainmenu li:hover ul.con {
+  left: 0;
+  top: 83px;
+  padding: 0;
+  left: 0;
+}
+
+
+.mainmenu li ul.abo {
+  left: 500px;
+  top: 300px;
+  transform: rotate(300deg);
+  transition: .9s;
+}
+.mainmenu li:hover ul.abo {
+  left: 0;
+  top: 83px;
+  transform: rotate(0);
+}
