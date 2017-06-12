@@ -108,7 +108,8 @@ a:hover { text-decoration: none }
     font-weight: 400;
 }
 .hero-text p {
-    line-height: 26px;
+  font-weight: 600;
+  line-height: 26px;
 }
 .hero-text {
   max-width: 650px;
