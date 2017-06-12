@@ -1,0 +1,49 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    h2 {color: red}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    h2 {color: yellow}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ h2 {color: green}  
+    
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .mainmenu {
+        text-align: center;
+    }
+    .welcome-area {
+        height: auto;
+    }
+    .hero-bottom {
+        position: relative;
+    }
+    .copyright {
+        margin: 0px 0 10px;
+        text-align: center;
+    }
+    .socila-icon {
+         margin-right: 20px;
+        text-align: center;
+    }
+    .hero-area-table {
+        display: block;
+        height: auto
+    }
+    .hero-text {
+      padding: 250px 0 50px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    h2 {color: blue}
+}
